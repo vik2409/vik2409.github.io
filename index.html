@@ -3,235 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vikas Ranwa | DevOps & Server Admin Portfolio</title>
+    <title>Vikas Ranwa - Resume</title>
     <style>
-        :root {
-            --bg-color: #0f172a;
-            --text-color: #e2e8f0;
-            --accent-color: #38bdf8;
-            --card-bg: #1e293b;
-            --border-color: #334155;
-        }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #ffffff;
+            color: #000000;
+            line-height: 1.2;
+            padding: 40px;
             max-width: 800px;
             margin: 0 auto;
-            padding: 40px 20px;
+            white-space: pre-wrap;
         }
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 30px;
-        }
-        h1 {
-            color: #fff;
-            margin-bottom: 10px;
-            font-size: 2.5rem;
-        }
-        h2 {
-            color: var(--accent-color);
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 8px;
-            margin-top: 40px;
-        }
-        .subtitle {
-            font-size: 1.2rem;
-            color: #94a3b8;
-            margin-bottom: 20px;
-        }
-        .links a {
-            color: var(--accent-color);
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        .links a:hover {
+        a {
+            color: #0000ee;
             text-decoration: underline;
         }
-        .summary {
-            font-size: 1.1rem;
-            background: var(--card-bg);
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid var(--accent-color);
+        .header-table {
+            width: 100%;
+            margin-bottom: 20px;
         }
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
+        .header-table td {
+            padding: 0;
+            vertical-align: top;
         }
-        .skill-card {
-            background: var(--card-bg);
-            padding: 15px;
-            border-radius: 6px;
-            border: 1px solid var(--border-color);
+        .right-align {
+            text-align: right;
         }
-        .skill-card h3 {
-            margin-top: 0;
-            color: #fff;
-            font-size: 1rem;
-        }
-        .job {
-            margin-bottom: 30px;
-        }
-        .job-title {
+        .section-title {
             font-weight: bold;
-            color: #fff;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        .exp-row {
             display: flex;
             justify-content: space-between;
-            flex-wrap: wrap;
+            font-weight: bold;
+            margin-top: 15px;
         }
-        .company {
-            color: var(--accent-color);
-        }
-        .date {
-            color: #94a3b8;
-            font-weight: normal;
+        .edu-row {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            margin-top: 15px;
         }
         ul {
+            list-style-type: disc;
+            margin: 5px 0;
             padding-left: 20px;
         }
         li {
-            margin-bottom: 8px;
-        }
-        .interests-tags {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-        .tag {
-            background: var(--border-color);
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-        }
-        footer {
-            text-align: center;
-            margin-top: 60px;
-            color: #64748b;
-            font-size: 0.9rem;
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <header>
-        <h1>Vikas Ranwa</h1>
-        <div class="subtitle">Server Admin transitioning to DevOps</div>
-        <div class="links">
-            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-            <a href="mailto:vik240907@gmail.com">Email</a>
-            <a href="https://github.com" target="_blank">GitHub Profile</a>
-        </div>
-    </header>
+<table class="header-table">
+    <tr>
+        <td style="font-weight: bold; font-size: 1.2em;">Vikas Ranwa</td>
+        <td class="right-align">
+            <a href="https://linkedin.com" target="_blank">linkedin.com/in/vik2409</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.io">vik2409.github.io</a>
+        </td>
+    </tr>
+    <tr>
+        <td><a href="mailto:vik240907@gmail.com">vik240907@gmail.com</a></td>
+        <td></td>
+    </tr>
+</table>
 
-    <section>
-        <p class="summary">
-            Server Admin moving into DevOps with a strong background in system maintenance, security, and troubleshooting. Skilled in Bash scripting, Docker, and cloud basics. Ready to help development teams build, test, and release software faster through automation.
-        </p>
-    </section>
+<div>Server Admin moving into DevOps with a strong background in system maintenance, security, and troubleshooting. Skilled in Bash scripting, Docker, and cloud basics. Ready to help development teams build, test, and release software faster through automation.</div>
 
-    <section>
-        <h2>Technical Skills</h2>
-        <div class="skills-grid">
-            <div class="skill-card">
-                <h3>DevOps</h3>
-                <p>Docker, Kubernetes, CI/CD, AWS basics, GitHub</p>
-            </div>
-            <div class="skill-card">
-                <h3>Scripting & Automation</h3>
-                <p>Bash Shell Scripting, PowerShell</p>
-            </div>
-            <div class="skill-card">
-                <h3>Operating Systems</h3>
-                <p>Linux (Kali, CentOS, RedHat), Windows Server</p>
-            </div>
-            <div class="skill-card">
-                <h3>Core Networking</h3>
-                <p>DNS, DHCP, TCP/IP, SSH, VPN</p>
-            </div>
-            <div class="skill-card">
-                <h3>System Administration</h3>
-                <p>Active Directory, User Access Control, Server Hardening, Backup & Recovery</p>
-            </div>
-        </div>
-    </section>
+<div class="section-title">SKILLS</div>
+<div>●	DevOps: Docker, Kubernetes, CI/CD, AWS basics, Github</div>
+<div>●	Scripting & Automation: Bash Shell Scripting, PowerShell</div>
+<div>●	Operating Systems: Linux (Kali, CentOS, RedHat), Windows Server</div>
+<div>●	Core Networking: DNS, DHCP, TCP/IP, SSH, VPN Configuration</div>
+<div>●	System Administration: Active Directory, User Access Control, Server Hardening, Backup & Recovery</div>
 
-    <section>
-        <h2>Experience</h2>
-        
-        <div class="job">
-            <div class="job-title">
-                <span><span class="company">SparrowG</span> — Server Admin</span>
-                <span class="date">Sep 2022 – Aug 2025</span>
-            </div>
-            <ul>
-                <li><strong>Security & Patching:</strong> Secured the server environment by implementing regular security patches, managing Active Directory permissions, and monitoring firewall logs to prevent unauthorized access.</li>
-                <li><strong>Data Integrity & Recovery:</strong> Designed and maintained automated backup systems and disaster recovery plans, ensuring 100% data restorability and minimal downtime during critical incidents.</li>
-                <li><strong>Server Lifecycle Management:</strong> Managed the installation, configuration, and optimization of physical and virtual servers (Windows/Linux) to ensure peak performance and 99.9% system availability.</li>
-            </ul>
-        </div>
+<div class="section-title">EXPERIENCE</div>
 
-        <div class="job">
-            <div class="job-title">
-                <span><span class="company">Mark Software Systems Pvt Ltd</span> — Operations Support</span>
-                <span class="date">Feb 2017 - Apr 2019</span>
-            </div>
-            <ul>
-                <li><strong>Office Infrastructure:</strong> Managed day-to-day administrative operations and office facilities for a software firm, ensuring zero downtime for essential services.</li>
-                <li><strong>Asset Management:</strong> Maintained a detailed inventory of IT hardware and software licenses, coordinating with vendors for equipment maintenance and upgrades.</li>
-                <li><strong>Operational Support:</strong> Optimized office documentation and data management workflows using MS Office, improving overall administrative efficiency.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section>
-        <h2>Education</h2>
-        <div class="job">
-            <div class="job-title">
-                <span>Jetking, Chandigarh</span>
-                <span class="date">2025 – Pursuing</span>
-            </div>
-            <p style="margin: 5px 0 0 0;">JK Certified Cloud Computing & Cyber security Engineer with AI</p>
-        </div>
-        <div class="job">
-            <div class="job-title">
-                <span>University for the Creative Arts, London, UK</span>
-                <span class="date">2018 – 2020</span>
-            </div>
-            <p style="margin: 5px 0 0 0;">Master's in Creative Business Management</p>
-        </div>
-        <div class="job">
-            <div class="job-title">
-                <span>Chitkara University, Punjab</span>
-                <span class="date">2013 – 2017</span>
-            </div>
-            <p style="margin: 5px 0 0 0;">B.E. in Electronics and Communication Engineering</p>
-        </div>
-    </section>
-
-    <section>
-        <h2>Areas of Interest</h2>
-        <div class="interests-tags">
-            <span class="tag">Backend Systems & DevOps</span>
-            <span class="tag">Cyber Security</span>
-            <span class="tag">AI-powered development tooling</span>
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2026 Vikas Ranwa. Built with HTML & CSS.</p>
-    </footer>
+<div class="exp-row">
+    <div>SparrowG  (Server Admin)</div>
+    <div>Sep 2022 – Aug 2025</div>
 </div>
+<ul>
+    <li>Security & Patching: Secured the server environment by implementing regular security patches, managing Active Directory permissions, and monitoring firewall logs to prevent unauthorized access.</li>
+    <li>Data Integrity & Recovery: Designed and maintained automated backup systems and disaster recovery plans, ensuring 100% data restorability and minimal downtime during critical incidents.</li>
+    <li>Server Lifecycle Management: Managed the installation, configuration, and optimization of physical and virtual servers (Windows/Linux) to ensure peak performance and 99.9% system availability.</li>
+</ul>
+
+<div class="exp-row">
+    <div>Mark Software Systems Pvt Ltd</div>
+    <div>Feb 2017 - Apr 2019</div>
+</div>
+<ul>
+    <li>Office Infrastructure: Managed day-to-day administrative operations and office facilities for a software firm, ensuring zero downtime for essential services.</li>
+    <li>Asset Management: Maintained a detailed inventory of IT hardware and software licenses, coordinating with vendors for equipment maintenance and upgrades.</li>
+    <li>Operational Support: Optimized office documentation and data management workflows using MS Office, improving overall administrative efficiency</li>
+</ul>
+
+<div class="section-title">EDUCATION</div>
+
+<div class="edu-row">
+    <div>Jetking, Chandigarh</div>
+    <div>2025 – Pursuing</div>
+</div>
+<div>JK Certified Cloud Computing & Cyber security Engineer with AI</div>
+
+<div class="edu-row">
+    <div>Master’s, University for the Creative Arts, London, UK</div>
+    <div>2020 – 2015</div>
+</div>
+<div>Creative Business Management</div>
+
+<div class="edu-row">
+    <div>B.E, Chitkara University Punjab</div>
+    <div>2013 – 2017</div>
+</div>
+<div>Electronics and Communication Engineering</div>
+
+<div class="section-title">Areas of Interest</div>
+<div>●	Backend Systems & DevOps</div>
+<div>●	Cyber Security</div>
+<div>●	AI-powered development tooling</div>
 
 </body>
 </html>
